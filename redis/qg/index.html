@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抢购</title>
+    <script src="../static/jquery.js"></script>
+</head>
+<body>
+    <div>
+        <h3>模拟抢购</h3>
+        <form action="" method="get">
+            库存数：<input type="text" name="product_num" value="" class="product_num">
+            <button type="button" class="pn_button">生成库存列表</button>
+            <button type="button" class="qg_button">抢购</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<script type="application/javascript">
+    $(function(){
+        $(".pn_button").click(function(){
+            $.get("index.php?product_num="+$(".product_num").val());
+        });
+
+        $(".qg_button").click(function(){
+            for(i=0;i<30;i++){
+                var num=parseInt(Math.random()*(10020-200+1)+200);
+                $.ajax({
+                    url: "index.php?user_id="+num,
+                    type: "get",
+                    success: function(data){
+                        console.log(data)
+                    }
+                });
+            }
+        });
+    });
+</script>

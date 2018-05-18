@@ -13,3 +13,4 @@ phpdemo
 
     以interface做接口，输出多种对应方法为例实现工厂模式
 
+5. redis列表实现高并发队列抢购(redis/qg)
