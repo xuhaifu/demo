@@ -1,0 +1,16 @@
+{
+  "name": "test/test",
+  "type": "library",
+  "description": "composer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xuhaifu",
+      "email": "xuhaifu2008@163.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^6.2",
+    "phpunit/dbunit": "^3.0"
+  }
+}

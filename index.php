@@ -1,5 +1,7 @@
 <?php
 
+require  "vendor/autoload.php";
+
 /**
 * 工厂模式样例
 * /model/factory

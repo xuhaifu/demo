@@ -16,3 +16,6 @@ phpdemo
 5. redis列表实现高并发队列抢购(redis/qg)
 
 6. php模拟高并发访问(curl_multi.php)
+
+7. phpunit(phpunit)
+
