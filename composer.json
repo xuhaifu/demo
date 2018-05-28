@@ -9,8 +9,13 @@
       "email": "xuhaifu2008@163.com"
     }
   ],
-  "require-dev": {
+  "require": {
+    "php": "^7.0",
     "phpunit/phpunit": "^6.2",
-    "phpunit/dbunit": "^3.0"
+    "phpunit/dbunit": "^3.0",
+    "phpunit/php-invoker": "^1.1",
+    "symfony/yaml": "^3.0 || ^4.0",
+    "ext-pdo": "*",
+    "ext-simplexml": "*"
   }
 }
