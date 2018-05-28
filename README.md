@@ -22,3 +22,7 @@ phpdemo
 8. Makedown语法学习(README_DEMO.md)
 
 9. php闭包的用法(function_use.php)
+
+10. php 全局配置.env的使用(phpdotenv)
+
+11. trait命名类的用法(trait)
