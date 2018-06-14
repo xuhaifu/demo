@@ -26,3 +26,5 @@ phpdemo
 10. php 全局配置.env的使用(phpdotenv)
 
 11. trait命名类的用法(trait)
+
+12. php通过cookie模拟登录(curl)
