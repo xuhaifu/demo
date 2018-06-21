@@ -1,5 +1,7 @@
 <?php
 
+//curl模拟提交cookie
+
 $url = "http://local1.hiselling.com/bg_os/index.php?com=index";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
