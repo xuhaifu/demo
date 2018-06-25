@@ -28,3 +28,5 @@ phpdemo
 11. trait命名类的用法(trait)
 
 12. php通过cookie模拟登录(curl)
+
+13. [PHP回顾之多进程编程(posix)](https://segmentfault.com/a/1190000015372752)
